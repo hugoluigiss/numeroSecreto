@@ -1,0 +1,83 @@
+:root{
+    --font-family:'Mouse Memoirs', sans-serif;
+    --menu-color: #100720;
+    --primary-color: #31087B;
+    --pink-color:#FA2FB5;
+    --yellow-color:#FFC23C;
+    --white-color:white;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    min-height: 100vh;
+    
+}
+
+.cabecalho{
+    background-color: var(--menu-color);
+    color: var(--white-color);
+    font-size: 45px;
+    padding: 20px;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 100;
+    color: var(--pink-color);
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 200;
+    color: var(--yellow-color);
+}
+
+.titulo-disse{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.mensagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+    display: inline-block;
+    font-size: 100px;
+    font-weight: 300;
+    border: 2px solid var(--white-color);
+    margin: 15px 0 50px 0;
+    padding: 10px;
+}
+
+.dica{
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.acertou{
+    font-size: 55px;
+    text-align: center;
+    margin: 350px 0 0 0;
+
+}
+
+.respostaFinal{
+    font-size: 35px;
+    font-weight: 200;
+    text-align: center;
+    margin: 50px 0;
+
+}
